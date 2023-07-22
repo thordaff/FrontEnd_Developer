@@ -196,6 +196,10 @@ section.info .info-section-3 .rectangle
 }
 /* ********************* */
 /* Section Review */
+section.review .carousel
+{
+    overflow: hidden;
+}
 section.review .review-card
 {
     background-color: #FFFFFF;
