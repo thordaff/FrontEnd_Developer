@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Color Palette Text */
+.softBlue
+{
+    color: #5468E7;
+}
+.softViolet
+{
+    color: #C897E4;
+}
+.darkBlue
+{
+    color: #232340;
+}
+.desaBlue
+{
+    color: #7676B2;
+}
+.offWhite
+{
+    color: #F5F5F5!important;
+}
+.lightOrange
+{
+    color: #FFBA79;
+}
+
+/* Color Palette Background */
+.soft-blue
+{
+    background-color: #5468E7!important;
+}
+.soft-violet
+{
+    background-color: #C897E4!important;
+}
+.dark-blue
+{
+    background-color: #232340!important;
+}
+.desa-blue
+{
+    background-color: #7676B2!important;
+}
+.off-white
+{
+    background-color: #F5F5F5!important;
+}
+.light-orange
+{
+    background-color: #FFBA79!important;
+}
+
+/* Typography */
+h1 
+{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 50px;
+    line-height: 64px;
+}
+h2
+{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+}
+h3
+{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+}
+h4
+{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+p
+{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+a
+{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+}
+body
+{
+    font-family: 'Lexend Deca', sans-serif;
+    max-width: 100%;
+    max-height: 100vh;
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+}
+/* Mobile Potrait View */
+
+/* Section Hero */
+h1
+{
+    font-size: 34px!important;
+}
+section.hero
+{
+    background-image: url('../img/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 450%;
+    background-position-x: 73%;
+    background-position-y: 10%;
+    height: 110vh;
+}
+section.hero .overlay
+{
+    height: 110vh;
+    background: radial-gradient(26.19% 26.19% at 69.9% -0.97%, rgba(0, 0, 0, 0.08) 15.16%, rgba(0, 0, 0, 0) 79.3%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(27.72% 27.72% at 63.41% -3.63%, rgba(0, 0, 0, 0.08) 22.94%, rgba(0, 0, 0, 0) 84.89%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(21.89% 28.36% at 85.43% 4.19%, rgba(0, 0, 0, 0.08) 16.15%, rgba(0, 0, 0, 0) 84.53%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(25.11% 41.85% at 53.79% 2.3%, rgba(0, 0, 0, 0.08) 15.16%, rgba(0, 0, 0, 0) 84.82%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(65.87% 147.92% at 4.91% 53.92%, rgba(35, 35, 64, 0.8) 33.46%, rgba(22, 22, 40, 0.48) 58.72%, rgba(0, 0, 0, 0.0177878) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;    
+}
+section.hero nav .navbar-brand
+{
+    font-size: 56px;
+}
+section.hero .hero-offer
+{
+    position: relative;
+    top: 25%;
+}
+section.hero .hero-content
+{
+    width: 250px;
+}
+.hero-form 
+{
+    position: relative;
+}
+
+.custom-icon 
+{
+    position: absolute;
+    right: 20px;
+    top: 47%;
+    transform: translateY(-50%);
+}
+.hero-button button, .hero-button input
+{
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+/* ********************* */
+/* Section Mockup */
+section.mockup
+{
+    height: 150vh;
+}
+section.mockup .mockup-content
+{
+    position: relative;
+    overflow-x: hidden!important;
+}
+section.mockup .mockup-content .mockup img
+{
+    width: 950px;
+    margin-left: -55px;
+
+}
+/* ********************* */
+/* Section Info */
+section.info
+{
+    height: 100vh;
+}
+section.info .rectangle
+{
+    position: relative;
+    width: 375px;
+    height: 375px;
+    left: -15px;
+    background-image: url('../img/info-1.jpg');
+    background-size: cover;
+}
+/* ********************* */
+
+/* Mobile Landscape View */
+@media (max-width: 768px) { 
+    
+}
+/* Tablet View */
+@media (max-width: 992px) { 
+    
+}
+/* Desktop View */
+@media (max-width: 1400px) { 
+    
+}
