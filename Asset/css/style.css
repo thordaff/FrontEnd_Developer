@@ -180,7 +180,15 @@ section.info .rectangle
     width: 375px;
     height: 375px;
     left: -15px;
+}
+section.info .info-section-1 .rectangle
+{
     background-image: url('../img/info-1.jpg');
+    background-size: cover;
+}
+section.info .info-section-2 .rectangle
+{
+    background-image: url('../img/info-2.jpg');
     background-size: cover;
 }
 /* ********************* */
