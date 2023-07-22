@@ -209,7 +209,7 @@ section.review .review-card
 section.review .circlePhoto
 {
     width: 80px;
-    height: 60px;
+    height: 55px;
     border-radius: 50%;
     background-color: grey;
 }
