@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <!-- CSS Script -->
+        <link rel="stylesheet" type="text/css" href="Asset/css/style.css">
+        <link rel="stylesheet" type="text/css" href="Asset/css/blog.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <!-- JS Script -->
+        <script src="https://kit.fontawesome.com/25af777db1.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Hero Section Start -->
+        <section class="hero">
+            <div class="container">
+                <!-- Navbar Section Start -->
+                    <nav class="navbar navbar-expand-lg pt-3 p-3">
+                        <a class="navbar-brand darkBlue" href="#">team<span class="softBlue">.</span></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav ms-auto">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" href="#">Features</a>
+                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link disabled">Disabled</a>
+                            </div>
+                        </div>
+                    </nav>
+                <!-- Navbar Section End -->
+            </div>
+        </section>
+        <!-- Hero Section End -->
+
+        <!-- Detail Blog Section Start -->
+            <section class="detailBlog">
+                <div class="container">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex flex-column gap-4 p-3">
+                            <h1 class="black fw-bold">Data exported by Team Cloud organization administrators contained private files</h1>
+                            <div class="d-flex flex-row gap-4">
+                                <div class="circlePhoto"></div>
+                                <caption>Mark Brooklyn</caption>
+                                <p>|</p>
+                                <caption>June 14, 2023</caption>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <p>Administrators of Team Cloud organizations can export public data from their organization via the organization settings menu. The exports include all the data that appears in public streams, and can be used to migrate from Team Cloud to self-hosting Team. Note that exporting private data is a separate process that requires contacting Team Support. <br>
+
+                                Due to a bug in the public export code, exports of public data contained all uploaded files, even those from private messages and private streams. This may have allowed organization owners or administrators to extract uploaded files that they were not otherwise allowed to access. The content of non-public messages was never included in public exports. <br>
+                                
+                                This bug has existed since the public export feature was implemented in August 2019. We have deleted all existing Team Cloud exports from our servers, and will be making changes to auto-expire all exports after 7 days in the future. This bug was fixed for self-hosted users in the Team Server 5.4 release. <br>
+                                
+                                We have notified by email all administrators and users in non-deactivated Team Cloud organizations who may have been impacted by this bug. As many organizations have never exported their data, most Team Cloud users were not affected. <br>
+                                
+                                We would like to thank Antoine Benoist for bringing this issue to our attention.</p>
+                        </div>
+                        <div class="d-flex flex-column author p-3">
+                            <div class="d-flex flex-column gap-5">
+                                <h4 class="softViolet text-center text-uppercase">writtern by</h4>
+                                <div class="d-flex flex-row">
+                                    <div class="circlePhoto"></div>
+                                    <div class="d-flex flex-column">
+                                        <h3 class="darkBlue">Mark Brooklyn</h3>
+                                        <caption class="darkBlue opacity-50">COO at Team. Author of the upcoming book on Team Management and Leadership.</caption>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="py-5">
+                        <!-- Comment Section Start -->
+                            <section class="comment">
+                                <div class="d-flex flex-column gap-5">
+                                    <div class="comment-header">
+                                        <p class="darkBlue">Join the conversation</p>
+                                    </div>
+                                    <div class="d-flex flex-row comment-section">
+                                        <div class="circlePhoto"></div>
+                                        <form action="" method="post">
+                                            <textarea class="p-3" name="" id="" cols="30" rows="10" placeholder="Comments"></textarea>
+                                        </form>
+                                    </div>
+                                </div>
+                            </section>
+                        <!-- Comment Section End -->
+                    </div>
+                </div>
+            </section>
+        <!-- Detail Blog Section End -->
+
+        <!-- Footer Section Start -->
+            <footer class="dark-blue p-5">
+                <div class="container">
+                    <div class="d-flex flex-column footer-content gap-5">
+                        <div class="titlePage">
+                            <h1 class="fw-bold offWhite">team<span class="softBlue">.</span></h1>
+                            <p class="offWhite">Collaboration platform for mordern team </p>
+                        </div>
+                        <div class="d-flex flex-column flex-lg-row gap-5">
+                            <div class="company order-2">
+                                <h1 class="softBlue">Company</h1>
+                                <div class="footer-nav">
+                                    <a href="" class="nav-link offWhite">Product</a>
+                                    <a href="" class="nav-link offWhite">Blog</a>
+                                    <a href="" class="nav-link offWhite">Support</a>
+                                </div>
+                            </div>
+                            <div class="features order-3">
+                                <h1 class="softBlue">Features</h1>
+                                <div class="footer-nav">
+                                    <a href="" class="nav-link offWhite">Screen Sharing</a>
+                                    <a href="" class="nav-link offWhite">IOS & Android Apps</a>
+                                    <a href="" class="nav-link offWhite">File Sharing</a>
+                                    <a href="" class="nav-link offWhite">User Management</a>
+                                </div>
+                            </div>
+                            <div class="contact order-4">
+                                <h1 class="softBlue">Contact</h1>
+                                <div class="footer-nav">
+                                    <a href="mailto:info@teamapp.com" class="nav-link offWhite">info@teamapp.com</a>
+                                    <a href="" class="nav-link offWhite">1-800-200-300</a>
+                                    <a href="" class="nav-link offWhite">1010 Sunset Blv. Palo Alto, California</a>
+                                </div>
+                            </div>
+                            <div class="uptodate order-1">
+                                <h1 class="softBlue">Stay up to date</h1>
+                                <div class="footer-nav">
+                                    <p class="offWhite">Subscribe to our newseller</p>
+                                    <form action="" method="post">
+                                        <input class="p-2" type="text" name="" id="" placeholder="Email">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        <!-- Footer Section End -->
+    </body>
+</html>

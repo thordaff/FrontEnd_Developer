@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* Color Palette Text */
+.black
+{
+    color: #25313C;
+}
 .softBlue
 {
     color: #5468E7;
