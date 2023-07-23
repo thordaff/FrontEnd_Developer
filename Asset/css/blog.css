@@ -6,4 +6,9 @@ section.hero
     height: auto;
     background-image: none!important;
 }
+section.detailBlog .image
+{
+    height: 280px;
+    background-color: grey;
+}
 /****************/
