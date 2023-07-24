@@ -115,6 +115,7 @@ section.hero
     background-position-x: 73%;
     background-position-y: 10%;
     height: 110vh;
+    overflow: hidden;
 }
 section.hero .overlay
 {
