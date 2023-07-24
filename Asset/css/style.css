@@ -248,7 +248,6 @@ section.review .circlePhoto
     }
     section.hero .hero-offer .hero-content
     {
-        border: 1px solid black;
         width: 563px;
     }
     section.hero .hero-offer .hero-button form input, .hero-offer .hero-button form button 
