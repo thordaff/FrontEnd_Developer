@@ -229,5 +229,13 @@ section.review .circlePhoto
 }
 /* Desktop View */
 @media (max-width: 1400px) { 
-    
+    /* Section Mockup */
+    section.mockup .mockup-content .mockup img
+    {
+        width: 175%;
+    }
+    /******************/
+    /* Section Info */
+
+    /****************/
 }
