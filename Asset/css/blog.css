@@ -37,3 +37,13 @@ section.detailBlog .image
     object-fit: cover;
 }
 /****************/
+
+/* Desktop View */
+@media (max-width: 1400px) { 
+
+    /* Blog Section */
+    section.blog .blog-card
+    {
+        width: 360px;
+    }
+}
