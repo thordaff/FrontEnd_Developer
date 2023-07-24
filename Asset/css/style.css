@@ -229,6 +229,33 @@ section.review .circlePhoto
 }
 /* Desktop View */
 @media (max-width: 1400px) { 
+    h1 
+    {
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 50px!important;
+        line-height: 64px;
+    }
+    /* Section Hero */
+    section.hero
+    {
+        background-image: url('../img/hero-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    section.hero .hero-offer
+    {
+        width: 563px;
+    }
+    section.hero .hero-offer .hero-content
+    {
+        border: 1px solid black;
+        width: 563px;
+    }
+    section.hero .hero-offer .hero-button form input, button 
+    {
+        
+    }
+    /****************/
     /* Section Mockup */
     section.mockup .mockup-content .mockup img
     {
