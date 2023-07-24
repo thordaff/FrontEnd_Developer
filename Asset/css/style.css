@@ -126,9 +126,13 @@ section.hero .overlay
     radial-gradient(25.11% 41.85% at 53.79% 2.3%, rgba(0, 0, 0, 0.08) 15.16%, rgba(0, 0, 0, 0) 84.82%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
     radial-gradient(65.87% 147.92% at 4.91% 53.92%, rgba(35, 35, 64, 0.8) 33.46%, rgba(22, 22, 40, 0.48) 58.72%, rgba(0, 0, 0, 0.0177878) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;    
 }
+section.hero nav button
+{
+    border: none!important;
+}
 section.hero nav button span
 {
-    color: white!important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23ffffff' d='M16 12H0v1h16v-1zm0-5H0v1h16V7zm0-5H0v1h16V2z'/%3E%3C/svg%3E");
 }
 section.hero nav .navbar-brand
 {
