@@ -27,6 +27,7 @@ section.detailBlog .vertical-line
 section.detailBlog .circlePhoto
 {
     border-radius: 50%;
-    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /****************/
