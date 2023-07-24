@@ -235,7 +235,7 @@
 <script>
     let currentCardIndex = 0;
     let touchStartX = 0;
-    let touchEndX = 0;
+    let touchMoveX = 0;
     const cardWrapper = document.getElementById('cardWrapper');
     const cards = document.querySelectorAll('.card');
 
@@ -249,19 +249,29 @@
     }
 
     function handleTouchMove(event) {
-      touchEndX = event.touches[0].clientX;
+      touchMoveX = event.touches[0].clientX;
+      const touchDiff = touchMoveX - touchStartX;
+      const cardWidth = cards[0].offsetWidth;
+
+      // Geser kartu selama swipe berlangsung
+      const newOffset = -currentCardIndex * cardWidth + touchDiff;
+      cardWrapper.style.transform = `translateX(${newOffset}px)`;
     }
 
     function handleTouchEnd() {
-      const touchDiff = touchEndX - touchStartX;
+      const touchDiff = touchMoveX - touchStartX;
+      const cardWidth = cards[0].offsetWidth;
 
-      // Jika pergerakan horizontal cukup besar (lebih dari 50 piksel), pindahkan kartu
-      if (Math.abs(touchDiff) > 50) {
+      // Jika pergerakan horizontal cukup besar (lebih dari setengah lebar kartu), pindahkan kartu
+      if (Math.abs(touchDiff) > cardWidth / 2) {
         if (touchDiff < 0) {
           nextCard();
         } else {
           prevCard();
         }
+      } else {
+        // Jika pergerakan tidak cukup besar, kembalikan ke posisi kartu semula
+        showCard(currentCardIndex);
       }
     }
 
