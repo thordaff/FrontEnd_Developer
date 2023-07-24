@@ -121,7 +121,7 @@
                     <div class="d-flex flex-column">
                         <h1 class="darkBlue fw-bold text-center p-5">What people say about Team</h1>
                     </div>
-                    <div class="slider-container" ontouchstart="handleTouchStart(event)" ontouchmove="handleTouchMove(event)">
+                    <div class="slider-container" ontouchstart="handleTouchStart(event)" ontouchmove="handleTouchMove(event)" ontouchend="handleTouchEnd()">
                         <div class="card-wrapper" id="cardWrapper">
                             <div class="card">
                                 <h3>Card 1</h3>
@@ -235,6 +235,7 @@
 <script>
     let currentCardIndex = 0;
     let touchStartX = 0;
+    let touchEndX = 0;
     const cardWrapper = document.getElementById('cardWrapper');
     const cards = document.querySelectorAll('.card');
 
@@ -248,7 +249,10 @@
     }
 
     function handleTouchMove(event) {
-      const touchEndX = event.touches[0].clientX;
+      touchEndX = event.touches[0].clientX;
+    }
+
+    function handleTouchEnd() {
       const touchDiff = touchEndX - touchStartX;
 
       // Jika pergerakan horizontal cukup besar (lebih dari 50 piksel), pindahkan kartu
