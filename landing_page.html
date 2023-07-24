@@ -121,220 +121,40 @@
                     <div class="d-flex flex-column">
                         <h1 class="darkBlue fw-bold text-center p-5">What people say about Team</h1>
                     </div>
-                    <div class="swiper userSwipper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="d-flex flex-row gap-5 mb-4 carousel-content">
-                                    <div class="d-flex flex-column gap-4 p-3">
-                                        <div class="star-review">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="user-review">
-                                            <p class="darkBlue">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum ultricies laoreet.</p>
-                                        </div>
-                                        <div class="d-flex flex-row user-profile gap-3">
-                                            <div class="circlePhoto"></div>
-                                            <div class="d-flex flex-column">
-                                                <h3 class="darkBlue">Chealsea Morgan</h3>
-                                                <p class="desaBlue">CEO ot Subway</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="slider-container" ontouchstart="handleTouchStart(event)" ontouchmove="handleTouchMove(event)">
+                        <div class="card-wrapper" id="cardWrapper">
+                            <div class="card">
+                                <h3>Card 1</h3>
+                                <p>Isi dari card pertama</p>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="d-flex flex-row gap-5 mb-4 carousel-content">
-                                    <div class="d-flex flex-column gap-4 p-3">
-                                        <div class="star-review">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="user-review">
-                                            <p class="darkBlue">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum ultricies laoreet.</p>
-                                        </div>
-                                        <div class="d-flex flex-row user-profile gap-3">
-                                            <div class="circlePhoto"></div>
-                                            <div class="d-flex flex-column">
-                                                <h3 class="darkBlue">Chealsea Morgan</h3>
-                                                <p class="desaBlue">CEO ot Subway</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="card">
+                                <h3>Card 2</h3>
+                                <p>Isi dari card kedua</p>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="d-flex flex-row gap-5 mb-4 carousel-content">
-                                    <div class="d-flex flex-column gap-4 p-3">
-                                        <div class="star-review">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="user-review">
-                                            <p class="darkBlue">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum ultricies laoreet.</p>
-                                        </div>
-                                        <div class="d-flex flex-row user-profile gap-3">
-                                            <div class="circlePhoto"></div>
-                                            <div class="d-flex flex-column">
-                                                <h3 class="darkBlue">Chealsea Morgan</h3>
-                                                <p class="desaBlue">CEO ot Subway</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="card">
+                                <h3>Card 2</h3>
+                                <p>Isi dari card kedua</p>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="d-flex flex-row gap-5 mb-4 carousel-content">
-                                    <div class="d-flex flex-column gap-4 p-3">
-                                        <div class="star-review">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="user-review">
-                                            <p class="darkBlue">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum ultricies laoreet.</p>
-                                        </div>
-                                        <div class="d-flex flex-row user-profile gap-3">
-                                            <div class="circlePhoto"></div>
-                                            <div class="d-flex flex-column">
-                                                <h3 class="darkBlue">Chealsea Morgan</h3>
-                                                <p class="desaBlue">CEO ot Subway</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="card">
+                                <h3>Card 2</h3>
+                                <p>Isi dari card kedua</p>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="d-flex flex-row gap-5 mb-4 carousel-content">
-                                    <div class="d-flex flex-column gap-4 p-3">
-                                        <div class="star-review">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="user-review">
-                                            <p class="darkBlue">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum ultricies laoreet.</p>
-                                        </div>
-                                        <div class="d-flex flex-row user-profile gap-3">
-                                            <div class="circlePhoto"></div>
-                                            <div class="d-flex flex-column">
-                                                <h3 class="darkBlue">Chealsea Morgan</h3>
-                                                <p class="desaBlue">CEO ot Subway</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="card">
+                                <h3>Card 2</h3>
+                                <p>Isi dari card kedua</p>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="d-flex flex-row gap-5 mb-4 carousel-content">
-                                    <div class="d-flex flex-column gap-4 p-3">
-                                        <div class="star-review">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="user-review">
-                                            <p class="darkBlue">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum ultricies laoreet.</p>
-                                        </div>
-                                        <div class="d-flex flex-row user-profile gap-3">
-                                            <div class="circlePhoto"></div>
-                                            <div class="d-flex flex-column">
-                                                <h3 class="darkBlue">Chealsea Morgan</h3>
-                                                <p class="desaBlue">CEO ot Subway</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="card">
+                                <h3>Card 2</h3>
+                                <p>Isi dari card kedua</p>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="d-flex flex-row gap-5 mb-4 carousel-content">
-                                    <div class="d-flex flex-column gap-4 p-3">
-                                        <div class="star-review">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="user-review">
-                                            <p class="darkBlue">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum ultricies laoreet.</p>
-                                        </div>
-                                        <div class="d-flex flex-row user-profile gap-3">
-                                            <div class="circlePhoto"></div>
-                                            <div class="d-flex flex-column">
-                                                <h3 class="darkBlue">Chealsea Morgan</h3>
-                                                <p class="desaBlue">CEO ot Subway</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="d-flex flex-row gap-5 mb-4 carousel-content">
-                                    <div class="d-flex flex-column gap-4 p-3">
-                                        <div class="star-review">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="user-review">
-                                            <p class="darkBlue">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum ultricies laoreet.</p>
-                                        </div>
-                                        <div class="d-flex flex-row user-profile gap-3">
-                                            <div class="circlePhoto"></div>
-                                            <div class="d-flex flex-column">
-                                                <h3 class="darkBlue">Chealsea Morgan</h3>
-                                                <p class="desaBlue">CEO ot Subway</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="d-flex flex-row gap-5 mb-4 carousel-content">
-                                    <div class="d-flex flex-column gap-4 p-3">
-                                        <div class="star-review">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="user-review">
-                                            <p class="darkBlue">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum ultricies laoreet.</p>
-                                        </div>
-                                        <div class="d-flex flex-row user-profile gap-3">
-                                            <div class="circlePhoto"></div>
-                                            <div class="d-flex flex-column">
-                                                <h3 class="darkBlue">Chealsea Morgan</h3>
-                                                <p class="desaBlue">CEO ot Subway</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                          <!-- Tambahkan div.card untuk setiap card tambahan -->
                         </div>
-                        <div class="d-flex flex-row">
-                            <button class="button-prev"></button>
-                            <button class="button-next"></button>
-                        </div>
+                    </div>
+                    
+                    <!-- Tombol prev dan next -->
+                    <div class="slider-buttons">
+                    <button class="slider-button" onclick="prevCard()">Prev</button>
+                    <button class="slider-button" onclick="nextCard()">Next</button>
                     </div>
                 </div>
             </section>
@@ -389,20 +209,69 @@
             </footer>
         <!-- Footer Section End -->
         <style>
-            .swiper-slide
-            {
-                border: 1px solid black;
+            /* Gaya kartu */
+            .slider-container {
+              width: 100%;
+              overflow: hidden; /* Agar kartu melebihi lebar container tidak terlihat */
             }
-        </style>
-        <script>
-            var swiper = new Swiper(".userSwipper", {
-                slidesPerView: 3,
-                spaceBetween: 30,
-                navigation: {
-                    nextEl: ".button-next",
-                    prevEl: ".button-prev",
-                },
-            });
-        </script>
+            .card-wrapper {
+              display: flex;
+              transition: transform 0.5s ease; /* Transisi kartu saat digeser */
+            }
+            .card {
+              flex: 0 0 300px; /* Lebar kartu */
+              margin-right: 10px; /* Jarak antara kartu */
+              border: 1px solid #ccc;
+              padding: 10px;
+              width: 300px;
+              height: 150px;
+            }
+            /* Gaya tombol */
+            .slider-button {
+              margin: 5px;
+              cursor: pointer;
+            }
+          </style>
+<script>
+    let currentCardIndex = 0;
+    let touchStartX = 0;
+    const cardWrapper = document.getElementById('cardWrapper');
+    const cards = document.querySelectorAll('.card');
+
+    function showCard(index) {
+      const offset = -index * cards[0].offsetWidth;
+      cardWrapper.style.transform = `translateX(${offset}px)`;
+    }
+
+    function handleTouchStart(event) {
+      touchStartX = event.touches[0].clientX;
+    }
+
+    function handleTouchMove(event) {
+      const touchEndX = event.touches[0].clientX;
+      const touchDiff = touchEndX - touchStartX;
+
+      // Jika pergerakan horizontal cukup besar (lebih dari 50 piksel), pindahkan kartu
+      if (Math.abs(touchDiff) > 50) {
+        if (touchDiff < 0) {
+          nextCard();
+        } else {
+          prevCard();
+        }
+      }
+    }
+
+    // Fungsi untuk mengatur perpindahan kartu ke kartu sebelumnya
+    function prevCard() {
+      currentCardIndex = Math.max(currentCardIndex - 1, 0);
+      showCard(currentCardIndex);
+    }
+
+    // Fungsi untuk mengatur perpindahan kartu ke kartu berikutnya
+    function nextCard() {
+      currentCardIndex = Math.min(currentCardIndex + 1, cards.length - 1);
+      showCard(currentCardIndex);
+    }
+  </script>
     </body>
 </html>
