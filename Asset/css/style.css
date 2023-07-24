@@ -220,15 +220,15 @@ section.review .circlePhoto
 /* ********************* */
 
 /* Mobile Landscape View */
-@media (max-width: 768px) { 
+@media (min-width: 768px) { 
     
 }
 /* Tablet View */
-@media (max-width: 992px) { 
+@media (min-width: 992px) { 
     
 }
 /* Desktop View */
-@media (max-width: 1400px) { 
+@media (min-width: 1200px) { 
     h1 
     {
         font-family: 'Lexend Deca', sans-serif;
@@ -251,9 +251,10 @@ section.review .circlePhoto
         border: 1px solid black;
         width: 563px;
     }
-    section.hero .hero-offer .hero-button form input, button 
+    section.hero .hero-offer .hero-button form input, .hero-offer .hero-button form button 
     {
-        
+        width: 233px;
+        height: 47px;
     }
     /****************/
     /* Section Mockup */
