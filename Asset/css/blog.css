@@ -13,9 +13,10 @@
 /* Blog Section */
 section.blog .blog-card
 {
-    border-radius: 20px;
+    border-radius: 20px!important;
     background-color: #FFFFFF;
     box-shadow: 0px 16px 24px 0px #7676B23D;
+    overflow: hidden;
 }
 /****************/
 /* Detail Blog */
@@ -44,6 +45,12 @@ section.detailBlog .image
     /* Blog Section */
     section.blog .blog-card
     {
-        width: 360px;
+        max-width: 360px;
+        max-height: 100%;
+    }
+    section.blog .blog-card img {
+        width: 100%; 
+        height: auto;
+        display: block; 
     }
 }
